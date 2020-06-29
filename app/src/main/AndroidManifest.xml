@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.splashscreen1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Thank_You"></activity>
+        <activity android:name=".Trending" />
+        <activity android:name=".Payment" />
+        <activity android:name=".Address" />
+        <activity android:name=".Help_Center" />
+        <activity android:name=".Discription" />
+        <activity android:name=".Mi" />
+        <activity android:name=".Google" />
+        <activity android:name=".Honor" />
+        <activity android:name=".Nokia" />
+        <activity android:name=".Realme" />
+        <activity android:name=".Oneplus" />
+        <activity android:name=".Oppo" />
+        <activity android:name=".Vivo" />
+        <activity android:name=".Samsung" />
+        <activity android:name=".Apple" />
+        <activity android:name=".Home" />
+        <activity android:name=".Register" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

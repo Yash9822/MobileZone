@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="5dp">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="70dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@drawable/iphone" />
+
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:foregroundTint="#D10F1C"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@id/imageView"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="25dp"
+                android:text="Apple Iphone 11 (64GB)"
+                android:textColor="#1A1A1A"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textColorType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textview_border_background"
+                android:foregroundTint="#EF0707"
+                android:padding="4dp"
+                android:layout_marginTop="5dp"
+                android:text="Black"
+                android:textAlignment="center"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#0B0A0A"
+                android:textSize="10sp"
+                app:layout_constraintTop_toBottomOf="@id/textViewTitle"
+                app:layout_constraintStart_toStartOf="@id/textViewTitle"/>
+
+            <TextView
+                android:id="@+id/textViewNewprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹64,885"
+                app:layout_constraintTop_toBottomOf="@id/textColorType"
+                app:layout_constraintStart_toStartOf="@id/textColorType"
+                android:layout_marginTop="4dp"
+                android:textColor="#071EB6"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹68,300"
+                android:textColor="#92111112"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="12dp"
+                app:layout_constraintStart_toEndOf="@id/textViewNewprice"
+                app:layout_constraintTop_toTopOf="@id/textViewNewprice"/>
+
+            <TextView
+                android:id="@+id/discount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5% off"
+                android:textColor="#04C33A"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@id/textViewprice"
+                app:layout_constraintTop_toTopOf="@id/textViewprice"
+                app:layout_constraintBottom_toBottomOf="@id/textViewprice"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/textViewDelivery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Will be delivered by 2 days"
+                android:textColor="#E91E63"
+                android:textSize="16sp"
+                app:layout_constraintTop_toBottomOf="@id/textViewprice"
+                app:layout_constraintStart_toStartOf="@id/textViewNewprice"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+            <ImageView
+                android:id="@+id/imageViewLine"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintStart_toStartOf="@id/textViewprice"
+                app:layout_constraintEnd_toEndOf="@id/textViewprice"
+                app:layout_constraintTop_toTopOf="@id/textViewprice"
+                app:layout_constraintBottom_toBottomOf="@id/textViewprice"
+                app:srcCompat="@drawable/ic_line_thick" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

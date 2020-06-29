@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alfa_slab_one</item>
+        <item>@font/allerta_stencil</item>
+        <item>@font/arizonia</item>
+        <item>@font/basic</item>
+        <item>@font/caveat</item>
+        <item>@font/diplomata_sc</item>
+        <item>@font/macondo</item>
+    </array>
+</resources>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Payment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_detail_product"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#4E1C1A1A"
+        app:layout_scrollFlags="scroll|enterAlways" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+    <TextView
+        android:id="@+id/PaymentOPtions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/textview_border_background"
+        android:foregroundTint="#090808"
+        android:gravity="center|center_horizontal|center_vertical|fill_vertical"
+        android:padding="4dp"
+        android:text="Payment Options"
+        android:textColor="#F15F74"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/paytm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Pay through Paytm-98******04"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="27sp" />
+
+
+            <TextView
+                android:id="@+id/GooglePay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginRight="20dp"
+                android:text="Pay through GooglePay-87******31"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="27sp" />
+
+            <TextView
+                android:id="@+id/BhimUpi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginRight="20dp"
+                android:text="Pay through BhimUpi-98******84"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/Bank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="13dp"
+        android:gravity="center"
+        android:layout_marginRight="20dp"
+        android:text="  Pay Directly In our Account :-"
+        android:textColor="#040404"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/bank3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:text="Bank Name:- HDFC BANK"
+        android:textAlignment="center"
+        android:textColor="#F15F74"
+        android:textSize="27sp" />
+
+            <TextView
+                android:id="@+id/bank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:text="AccountNo:- 22********1"
+                android:textAlignment="center"
+                android:textColor="#F15F74"
+                android:textSize="27sp" />
+
+            <TextView
+                android:id="@+id/bank2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:text="IFSC Code :- HDFC02345"
+                android:textAlignment="center"
+                android:textColor="#F15F74"
+                android:textSize="27sp" />
+
+    <Button
+        android:id="@+id/payment"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/button_rounded"
+        android:text="Send Screen Shot Of Payment Here!"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/click"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#F15F74"
+                android:padding="10dp"
+                android:text="Click here! If you have sent the Screenshot  of your payment"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
+
+
+
+
+
